@@ -1,0 +1,70 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+.logo {
+	height: 38px;
+	width: 50px;
+	border-radius: 65%;
+}
+
+.title {
+	font-size: 30px;
+	font-weight: bold;
+	letter-spacing: 0px;
+	color: orange;
+}
+
+.menu {
+	font-weight: bolder;
+}
+
+.banner {
+	background-color: #4d5c48;
+	opacity: .9;
+	padding-bottom: 17px;
+	height: 520px;
+
+}
+
+.hero-img {
+	height: 410px;
+	width: 376px;
+	/*position: relative;
+	 animation: myfirst 5s linear 10s infinite alternate; */
+	position: relative;
+	animation-name: myfirst;
+	animation-duration: 20s;
+	animation-iteration-count: infinite;
+	animation-direction: normal;
+}
+
+.banner-title {
+	font-size: 60px;
+	color: white;
+}
+
+.text {
+	color: white;
+}
+
+.book-table {
+	text-decoration: none;
+	background: orange;
+	padding: 10px 16px;
+	color: white;
+	font-size: 24px;
+	font-weight: 600;
+}
+
+@keyframes myfirst {
+	from {
+		transform: rotate(0deg);
+	}
+
+	to {
+		transform: rotate(360deg);
+	}
+}
