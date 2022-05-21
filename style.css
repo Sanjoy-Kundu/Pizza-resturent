@@ -88,3 +88,38 @@
 	color: white;
 	border: 0px solid;
 }
+
+/* wellcome part*/
+
+.wellcome-image {
+	width: 50%;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 10px 2px;
+	margin-left: 10px;
+}
+
+.wellcome1 {
+	height: 200px;
+	width: 200px;
+	margin-bottom: 10px;
+}
+
+.wellcome2 {
+	height: 150px;
+	width: 150px;
+	margin-top: 51px;
+	margin-left: 18px;
+}
+
+.wellcome3 {
+	height: 200px;
+	width: 200px;
+}
+
+.wellcome4 {
+	height: 150px;
+	width: 150px;
+	margin-left: 38px;
+
+}
