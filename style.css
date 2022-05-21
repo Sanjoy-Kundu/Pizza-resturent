@@ -25,7 +25,7 @@
 	background-color: #4d5c48;
 	opacity: .9;
 	padding-bottom: 17px;
-	height: 520px;
+
 
 }
 
@@ -67,4 +67,24 @@
 	to {
 		transform: rotate(360deg);
 	}
+}
+
+
+
+.card1-img {
+	height: 75px;
+	width: 75px;
+	margin: 11px;
+}
+
+.card {
+	border: 0px solid;
+	box-shadow: 2px 3px 5px black;
+}
+
+.card:hover {
+	background-color: orange;
+	transition: .5s;
+	color: white;
+	border: 0px solid;
 }
