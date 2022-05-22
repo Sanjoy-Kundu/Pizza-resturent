@@ -228,3 +228,76 @@
 .nav-link a:hover {
 	color: none;
 }
+
+/* -------------------Food menu ----------------*/
+.food_menu {
+	display: flex;
+	justify-content: center;
+}
+
+.food_menu h3 {
+	line-height: 0;
+	margin: 0px 12px;
+	color: orange;
+	font-size: 19px;
+	font-style: italic;
+}
+
+.fn1 {
+	width: 61px;
+	height: 3px;
+	background-color: orange;
+}
+
+.fn2 {
+	width: 61px;
+	height: 3px;
+	background-color: orange;
+}
+
+.title h1 {
+	color: #0F172B;
+	text-align: center;
+	font-weight: bold;
+	margin-top: 9px;
+}
+
+.main-div {
+	display: flex;
+	width: 500px;
+	justify-content: space-between;
+	margin: 0 auto;
+}
+
+.main-div div {
+	display: flex;
+}
+
+
+.main-div div img {
+	height: 61px;
+	width: 93px;
+}
+
+.food-hr {
+	width: 549px;
+	margin: 0 auto;
+	height: 3px;
+	background: gray;
+	margin-top: 11px;
+
+}
+
+.main-div div p {
+	margin-left: 5px;
+}
+
+.nav-text-1 {
+	color: #9C9D92;
+	font-weight: bold;
+}
+
+.nav-text-2 {
+	color: #0F172B;
+	font-weight: bold;
+}
