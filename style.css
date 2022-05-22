@@ -206,3 +206,25 @@
 	color: #010a22;
 	font-weight: bolder;
 }
+
+.blank {
+	margin-bottom: 25px;
+}
+
+.read-link {
+	padding: 21px 18px;
+	background-color: orange;
+	width: 219px;
+	margin-top: 63px;
+	text-align: center;
+}
+
+.read-link a {
+	text-decoration: none;
+	font-weight: bolder;
+	color: white;
+}
+
+.nav-link a:hover {
+	color: none;
+}
